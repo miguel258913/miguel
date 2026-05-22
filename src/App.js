@@ -6,7 +6,6 @@ import Couter from './components/Counter/Counter';
 import Text from './components/Counter/Text';
 import Navbar from './components/Navbar/Navbar';
 import { Formulario } from './components/Formulario/Formulario';
-import { Tablas } from './components/Tablas/Tablas';
 
 function App() {
  
@@ -17,20 +16,9 @@ function App() {
       <div className=' col-md-6'>
        <Usuario></Usuario>
       </div>
-       <div className=' col-md-6'>
-         
+    </div>  
      <Cart></Cart>
-      </div>
-      <div className=' col-md-6'>
-            
-      <Formulario></Formulario> 
-      </div>
-      <div className=' col-md-6'>
-         
-      <Tablas></Tablas>
-      </div>
-
-    </div>
+     <Formulario></Formulario> 
      <Couter></Couter>
      <Text></Text>
      
